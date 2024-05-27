@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<style>
+			body {
+				margin: 0;
+				font-family: "Inter", sans-serif;
+			}
+
+			.mainDiv {
+				display: flex;
+				flex-direction: column;
+				background-color: #ffcd9e;
+				width: 1400px;
+				margin: 20px;
+				margin-top: 60px;
+			}
+
+			.upperDiv {
+				display: flex;
+				justify-content: space-between;
+			}
+
+			.upperLeftDiv,
+			.upperRightDiv {
+				padding: 20px;
+			}
+
+			.upperLeftDiv {
+				width: 45%;
+				margin-left: 100px;
+				margin-top: 80px;
+			}
+
+			.upperRightDiv {
+				width: 50%;
+			}
+
+			.lowerDiv {
+				padding: 10px;
+				height: 220px;
+				background-color: #282828;
+				color: #ffffff;
+				display: flex;
+				justify-content: space-around;
+			}
+
+			.lowerDiv,
+			ul,
+			li {
+				list-style: none;
+				padding: 3px;
+				margin-top: 10px;
+			}
+
+			.lowerDiv .lowerLogo {
+				display: flex;
+				list-style: none;
+				padding: 0;
+			}
+
+			.profileImage {
+				margin-left: 10px;
+			}
+
+			.text-block {
+				font-family: "Inter", sans-serif;
+			}
+
+			.text-title {
+				font-weight: 700;
+				font-size: 35px;
+				line-height: 50px;
+			}
+
+			.text-subtitle {
+				margin-top: 30px;
+				width: 390px;
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 30px;
+				padding: 2px;
+			}
+
+			.text-highlight {
+				margin-top: 30px;
+				font-weight: 800;
+				font-size: 18px;
+				line-height: 30px;
+				padding: 2px;
+			}
+
+			.text-footer {
+				margin-top: 30px;
+				font-weight: 500;
+				font-size: 12px;
+				line-height: 22px;
+				padding: 2px;
+				color: #ffffff;
+			}
+
+			.input-group {
+				display: flex;
+				margin-top: 30px;
+			}
+
+			.input-group input {
+				border: 3px solid black;
+				width: 300px;
+				height: 60px;
+				border-radius: 5px;
+				padding-left: 15px;
+			}
+
+			.input-group img {
+				height: 66px;
+				margin-left: 31px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="mainDiv">
+			<div class="upperDiv">
+				<div class="upperLeftDiv">
+					<div class="text-block text-title">
+						An inspiring design delivered to your inbox every morning
+					</div>
+					<div class="text-block text-subtitle">
+						Our team scouts the internet for the best designs, illustrations and art and
+						delivers a truly inspiring one every day to your inbox
+					</div>
+					<div class="text-block text-highlight">Show me how it looks</div>
+					<div class="input-group">
+						<input type="text" placeholder="your e-mail address" />
+						<img src="register.png" alt="register" />
+					</div>
+					<div class="text-block text-footer">Free - No Spam - No Data Sharing</div>
+				</div>
+				<div class="upperRightDiv">
+					<img class="profileImage" src="image.png" alt="image" />
+				</div>
+			</div>
+			<div class="lowerDiv">
+				<div>
+					<ul>
+						<li>Prompt Generator</li>
+						<li>Dweep Daily</li>
+						<li>All Contributors</li>
+						<li>Your data on Dweep.io</li>
+						<li>Contribute to Dweep</li>
+					</ul>
+				</div>
+				<div>
+					<ul style="display: flex; flex-direction: column; align-items: end">
+						<li>Dweep.io</li>
+						<li>Made with love in India</li>
+						<ul class="lowerLogo">
+							<li><img src="InstagramLogo.png" alt="InstagramLogo" /></li>
+							<li><img src="LinkedinLogo.png" alt="LinkedinLogo" /></li>
+						</ul>
+						<br />
+						<li>hello@dweep.io</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
